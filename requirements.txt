@@ -1,0 +1,8 @@
+langchain 
+langchain
+langchain_community
+langchain_core
+langchain_mongodb
+pymongo 
+pypdf
+langchain-google-genai

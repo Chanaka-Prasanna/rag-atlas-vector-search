@@ -1,0 +1,18 @@
+{
+  "collectionName": "chunked_data",
+  "database": "book_mongodb_chunks",
+  "type": "vectorSearch",
+  "name": "vector_index",
+  "fields": [
+      {
+        "numDimensions": 768,
+        "path": "embedding",
+        "similarity": "cosine",
+        "type": "vector"
+      },
+      {
+        "path": "hasCode",
+        "type": "filter"
+      }
+    ]
+}
